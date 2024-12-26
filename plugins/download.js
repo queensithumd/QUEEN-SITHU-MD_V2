@@ -17,7 +17,7 @@ const url = data.url
     
     
 let desc = `
-⫷⦁[ * '-'_꩜ 𝐐𝐔𝐄𝐄𝐍 𝐒𝐀𝐃𝐔  𝐒𝐎𝐍𝐆 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑 ꩜_'-' * ]⦁⫸
+🐦‍🔥QUEEN SITHU SOND DOWNLOADER🐦‍🔥
 
 🎵 *Song Found!* 
 
@@ -27,12 +27,11 @@ let desc = `
 ➥ *Uploaded On:* ${data.ago} 
 ➥ *Link:* ${data.url} 
 
-🎧 *Enjoy the music brought to you by* *𝐐𝐔𝐄𝐄𝐍 𝐒𝐀𝐃𝐔 Bot*! 
+🎧 *Enjoy the music brought to you by* *𝐐𝐔𝐄𝐄𝐍 𝐒𝐈𝐓𝐇𝐔 Bot*! 
 
-> *Created with 💛 by 𝐌𝐑 𝐃𝐈𝐍𝐄𝐒𝐇* 
+> *Created with 💚 by 𝐌𝐑 𝐓𝐇𝐀𝐑𝐔𝐒𝐇𝐀* 
  
-> *© 𝐐𝐔𝐄𝐄𝐍 𝐒𝐀𝐃𝐔- MD* 
-*💻 GitHub:* https://github.com/Navinofc44/DARK-ZERO-MD  
+> *© 𝐐𝐔𝐄𝐄𝐍 𝐒𝐈𝐓𝐇𝐔-𝐌𝐃_𝐕1*   
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
@@ -44,7 +43,7 @@ let downloadUrl = down.dl_url
 
 //send audio message
 await conn.sendMessage(from,{audio: {url:downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
-await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"audio/mpeg",fileName:data.title + ".mp3",caption:"*©QUEEN SADU - MD*"},{quoted:mek})
+await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"audio/mpeg",fileName:data.title + ".mp3",caption:"*©QUEEN SITHU - MD_V1*"},{quoted:mek})
 
 }catch(e){
 console.log(e)
@@ -70,7 +69,7 @@ const url = data.url
     
     
 let desc = `
-⫷⦁[ * '-'_꩜ 𝐐𝐔𝐄𝐄𝐍 𝐒𝐀𝐃𝐔 𝙈𝘿 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙀𝙍 ꩜_'-' * ]⦁⫸ 
+🐦‍🔥QUEEN SITHU VIDEO DOWNLOADER🐦‍🔥
 
 🎥 *Video Found!* 
 
@@ -80,12 +79,11 @@ let desc = `
 ➥ *Uploaded On:* ${data.ago} 
 ➥ *Link:* ${data.url} 
 
-🎬 *Enjoy the video brought to you by* *𝐐𝐔𝐄𝐄𝐍 𝐒𝐀𝐃𝐔 Bot*! 
+🎬 *Enjoy the video brought to you by* *𝐐𝐔𝐄𝐄𝐍 𝐒𝐈𝐓𝐇𝐔 Bot*! 
 
-> *Created with 💛 by 𝐌𝐑 𝐃𝐈𝐍𝐄𝐒𝐇* 
+> *Created with 💚 by 𝐌𝐑 𝐓𝐇𝐀𝐑𝐔𝐒𝐇𝐀* 
 
-> *© 𝐐𝐔𝐄𝐄𝐍 𝐒𝐀𝐃𝐔 - MD* 
-*💻 GitHub:* https://github.com/Navinofc44/DARK-ZERO-MD
+> *© 𝐐𝐔𝐄𝐄𝐍 𝐒𝐈𝐓𝐇𝐔 - 𝐌𝐃_𝐕1* 
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
@@ -97,7 +95,7 @@ let downloadUrl = down.dl_url
 
 //send video message
 await conn.sendMessage(from,{video: {url:downloadUrl},mimetype:"video/mp4"},{quoted:mek})
-await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4",fileName:data.title + ".mp4",caption:"*© QUEEN SADU - MD*"},{quoted:mek})
+await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4",fileName:data.title + ".mp4",caption:"*© QUEEN SITHU - MD_V1*"},{quoted:mek})
 
 }catch(e){
 console.log(e)
