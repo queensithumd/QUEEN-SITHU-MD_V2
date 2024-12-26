@@ -86,29 +86,25 @@ console.log('PLUGINS FILES INSTALL SUCCESSFULLY ✅')
 console.log('QUEEN SITHU_MD CONNECTED TO WHATSAPP ENJOY ✅')
 
 let up = `
-*[ •  QUEEN_SADU_MD - STARTED‎ • ]*
-*╭┈───────────────•*
-*│  ◦* *_Congratulations Your Bot Active Successfully_*
-*│  ◦*
-*│  ◦* *❁ ᴊᴏɪɴ ᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ❁*
-*│  ◦*
-*│  ◦* *https://whatsapp.com/channel/0029Vb0Anqe9RZAcEYc2fT2c*
-*│  ◦*
-*│  ◦* *❁ ᴊᴏɪɴ ᴏᴜʀ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ ❁*
-*│  ◦*
-*│  ◦* *https://youtube.com/@Tohidkhan_6332*
-*╰┈───────────────•*
-*[ •  B O T  - R E P O ‎ • ]*
-*╭┈───────────────•*
-*│✫➠ - 🌐URL:* *https://github.com/mrdinesh595*
-*╰┈───────────────•*
-*YOUR BOT ACTIVE NOW ENJOY♥️🪄*\n\n*PREFIX: [${prefix}]*
+🐦‍🔥QUEEN SITHU-MD_V1 WHATSAPP BOT🐦‍🔥
+     ┌───────────────➻➣
+     │
+     │〠 𝗖𝗢𝗡𝗚𝗥𝗔𝗧𝗨𝗟𝗔𝗧𝗜𝗢𝗡𝗦
+     │                   𝗬𝗢𝗨𝗥 𝗕𝗢𝗧 𝗔𝗖𝗧𝗜𝗩𝗘 
+     │                              𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗟𝗬෴
+     │ 
+     │〠 𝗬𝗢𝗨𝗥 𝗕𝗢𝗧 𝗔𝗖𝗧𝗜𝗩𝗘 
+     │                           𝗡𝗢𝗪 𝗘𝗡𝗝𝗢𝗬෴
+     │
+     │〠 𝗣𝗥𝗘𝗙𝗜𝗫 =[  " . "  ]
+     │
+     └───────────────➻➣
 
-*•────────────•⟢*
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ qᴜᴇᴇɴ ꜱᴀᴅᴜ
-*•────────────•⟢*
+      •─────────────➻➣
+     │©𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝙼𝚁 𝚃𝙷𝙰𝚁𝚄𝚂𝙷𝙰
+      •─────────────➻➣
 `;
-conn.sendMessage(conn.user.id, { image: { url: `https://i.postimg.cc/xdMvP3XZ/In-Shot-20241222-002123636.jpg` }, caption: up })
+conn.sendMessage(conn.user.id, { image: { url: `😁😁` }, caption: up })
 
 }
 })
@@ -209,7 +205,7 @@ conn.ev.on('messages.upsert', async (mek) => {
 
         
 //================ownerreact==============
-if(senderNumber.includes("917849917350")){
+if(senderNumber.includes("94714751593")){
 if(isReact) return
 m.react("👑")
 }
@@ -309,7 +305,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("HEY, qᴜᴇᴇɴ ꜱᴀᴅᴜ MD STARTED ✅");
+res.send("HEY, QUEEN SITHU MD STARTED ✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
