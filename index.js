@@ -104,7 +104,7 @@ let up = `
      │©𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝙼𝚁 𝚃𝙷𝙰𝚁𝚄𝚂𝙷𝙰
       •─────────────➻➣
 `;
-conn.sendMessage(conn.user.id, { image: { url: `😁😁` }, caption: up })
+conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/w9d14s.jpg` }, caption: up })
 
 }
 })
