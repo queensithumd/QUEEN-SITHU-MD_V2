@@ -35,7 +35,7 @@ const Crypto = require('crypto')
 const path = require('path')
 const prefix = config.PREFIX
 
-const ownerNumber = ['94788001464']
+const ownerNumber = ['94714751593']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -55,7 +55,7 @@ const port = process.env.PORT || 9090;
 //=============================================
 
 async function connectToWA() {
-console.log("CONNECTING QUEEN SADU_MD BOT🧬...");
+console.log("CONNECTING QUEEN SITHU_MD BOT🧬...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -83,7 +83,7 @@ require("./plugins/" + plugin);
 }
 });
 console.log('PLUGINS FILES INSTALL SUCCESSFULLY ✅')
-console.log('QUEEN SADU_MD CONNECTED TO WHATSAPP ENJOY ✅')
+console.log('QUEEN SITHU_MD CONNECTED TO WHATSAPP ENJOY ✅')
 
 let up = `
 *[ •  QUEEN_SADU_MD - STARTED‎ • ]*
