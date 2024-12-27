@@ -38,7 +38,7 @@
 <a href="https://tohid-md-web-pair-qr.onrender.com"><img height= "35" title="Author" src="https://img.shields.io/badge/GET SESSION ID-1:-black?style=for-the-badge&logo=render"></a>
 <p/>
 
-<a><img src='https://files.catbox.moe/w9d14s.jpg'/></a>
+
 
 
 
