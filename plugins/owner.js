@@ -2,7 +2,7 @@ const { cmd } = require('../command');
 
 cmd({
     pattern: "owner",
-    react: "👑", // Reaction emoji when the command is triggered
+    react: "🛡️", // Reaction emoji when the command is triggered
     alias: ["silent", "king"],
     desc: "Get owner number",
     category: "main",
@@ -11,9 +11,9 @@ cmd({
 async (conn, mek, m, { from }) => {
     try {
         // Owner's contact info
-        const ownerNumber = '94727680749'; // Replace this with the actual owner number
-        const ownerName = '➺ᴍʀ ᴅɪɴᴇꜱʜ࿐'; // Replace this with the owner's name
-        const organization = 'QUEEN SADU TEAM'; // Optional: replace with the owner's organization
+        const ownerNumber = '94714751593'; // Replace this with the actual owner number
+        const ownerName = '𝙼𝚁 𝚃𝙷𝙰𝚁𝚄𝚂𝙷𝙰࿐'; // Replace this with the owner's name
+        const organization = 'QUEEN SITHU TEAM'; // Optional: replace with the owner's organization
 
         // Create a vCard (contact card) for the owner
         const vcard = 'BEGIN:VCARD\n' +
